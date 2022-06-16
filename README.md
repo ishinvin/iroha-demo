@@ -104,3 +104,25 @@ An ordered set of commands, which is applied to the ledger. Any non-valid comman
 HL Iroha network consists of several essential components that provide the communication between the nodes. 
 
 ![pipeline-diagram](images/pipeline-diagram.png)
+
+
+### Demo
+
+```sh
+$ cd iroha
+$ docker-compose up -d
+```
+
+`use iroha-cli to test commands (add asset, transfer asset, and query)`
+
+```sh
+$ docker exec -it <container name/id> /bin/bash
+```
+
+```sh
+iroha-cli --account_name root@jtrb
+```
+
+<!-- ./iroha-cli --account_name newuser@test --new_account -->
+
+<!-- https://github.com/hyperledger/iroha/blob/main/example/genesis.block -->
