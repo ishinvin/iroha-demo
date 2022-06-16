@@ -113,7 +113,7 @@ $ cd iroha
 $ docker-compose up -d
 ```
 
-`use iroha-cli to test commands (add asset, transfer asset, and query)`
+use iroha-cli to test commands (add asset, transfer asset, and query)
 
 ```sh
 $ docker exec -it <container name/id> /bin/bash
